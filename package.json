@@ -1,0 +1,17 @@
+{
+  "name": "npm-project",
+  "version": "1.0.0",
+  "description": "sample project to learn using external packages",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "run-file": "node index.js",
+    "list-files": "ls-la"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "xhr2": "^0.2.1"
+  }
+}
